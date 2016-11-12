@@ -4,7 +4,14 @@ Sorta based on following the Tuts Plus tutorial for setting up a custom login wi
 
 ## It use
 
-To learn how to setup a user tracking and analytics feature for mixpanel.
+To learn how to setup a user tracking and analytics feature for mixpanel. Currently, it supports track activity management for; 
+
+- shopping cart sample
+- checkout sample
+- single page landing to email sign up
+- content blog with choice buttons
+- simple captcha voting
+
 
 
 ## Whats to come
