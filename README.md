@@ -1,6 +1,6 @@
 # MixPanel Tracking and Analytic Template
 
-Sorta based on following the Tuts Plus tutorial for setting up a custom login with role management and flowrouter hooks -- though likely I will modify this more for collecting analytics for sample shopping cart lists and blog_image content with 2 vote overlay buttons testing.  
+Sorta based on following the Tuts Plus tutorial for setting up a custom dashboard login with role management and flowrouter hooks for user email and role title collections -- though I've sorta deviated from the tutorial into a more dashboard tracking centric design focus on single page concepts and tracking user choice patterns. 
 
 ## It use
 
