@@ -1,0 +1,38 @@
+<template name="MainNav">
+    <nav class="main-nav">
+        
+        <ul>
+            <li><a href="/"><i class="fa fa-home"></i> Welcome</a></li>
+            <li><a href="/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            
+            {{#if currentUser}}
+             <li>
+                      {{> register}}
+                      {{> login}}
+             <!--{{> atForm}}-->
+            </li>
+                {{else}}
+                 <li>
+                     <i class="fa fa-sign-in"></i> Log-in &#92; Register
+            </li>
+           {{/if}}
+        </ul>
+        
+    </nav>
+</template>
+
+<template name="login">
+    <form>
+        <input type="email" name="loginEmail">
+        <input type="password" name="loginPassword">
+        <input type="submit" value="Login">
+    </form>
+</template>
+
+<template name="register">
+    <form>
+        <input type="email" name="registerEmail">
+        <input type="password" name="registerPassword">
+        <input type="submit" value="Register">
+    </form>
+</template>
